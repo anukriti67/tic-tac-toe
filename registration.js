@@ -13,7 +13,7 @@ if(db.Validate({
   }))
 console.log('user already exists');
 else
-console.log('doesnt');
+console.log('doesnot');
  });
 router.get('/',function(req,resp){
   resp.sendFile(__dirname + "/registration.html");
