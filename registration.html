@@ -1,0 +1,42 @@
+<html>
+<body>
+<div>
+<h3>
+New User 
+</h3>
+</div>
+<div>
+<form method="post" >
+<table>
+<tr>
+<td>
+First Name
+</td>
+<td>
+<input type="text" name="firstName"><br>
+</td>
+<tr>
+<td>
+User Id 
+</td>
+<td>
+<input type="text" name="userid"><br>
+</td></tr>
+<tr>
+<td>Password</td>
+<td>
+<input type="password" name="pwd">
+</td>
+</tr>
+</table>
+</form>
+<button type="button" onclick=function(){
+$.post("./"registration",{'pop':'pop'},function(data,status){
+  alert  ( 'receiuved');
+})
+}> subit</button>
+
+
+</div>
+</body>
+</html>

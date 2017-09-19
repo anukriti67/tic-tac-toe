@@ -1,0 +1,63 @@
+table{
+   border-collapse: collapse;
+
+}
+  .left{
+  border-left-width:0px;
+}
+.right{
+  border-right-width:0px;
+}
+.top{
+  border-top-width :0px;
+}
+
+.bottom{
+  border-bottom-width: 0px;
+}
+
+.shape
+{
+  height:195px;
+  width:auto;
+
+}
+.startButton
+{
+  position: center;
+}
+
+td
+{
+  width: 200px;
+  height: 200px;
+  border: 5px solid #795548;
+  padding: 0px ;
+
+}
+img
+{
+  
+  position:relative;
+  z-index:-100;
+}
+
+.menu
+{
+  background: green;
+}
+div.menu a
+{
+  display: inline-block;
+  color: yellow;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+
+}
+div.menu a:hover
+{
+  background-color: #08ff00;
+  color: white;
+  
+}
